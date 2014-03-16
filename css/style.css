@@ -1,0 +1,79 @@
+@import 'fonts.css';
+
+* { text-decoration: none; list-style-type: none;}
+
+body {
+    background: #000;
+    text-align: center;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    }
+
+.font-ff {
+  font-family: 'FF-regular';
+}
+
+.centered-contents {
+  text-align: center;
+  vertical-align: center;
+}
+
+.clock {
+    margin-top: 6%;
+}
+
+.container {
+    padding-right: 210px;
+    padding-left: 210px;
+}
+
+.thumbnail {
+    padding: 0px;
+}
+
+/*.col-sm-2 {
+    margin-right: -20px;
+}*/
+
+.dot {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 35px;
+    margin-top: 20px;
+    -webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+}
+
+.dot-active {
+    background-color: #BF1915;
+    border-width: 1px;
+    border-color: #fff;
+    -webkit-box-shadow: 0 0 60px 1px #8C001A;
+}
+
+.dot-inactive {
+    background-color: #444;
+}
+
+.dot-none {
+    visibility: hidden;
+}
+
+    @keyframes fade {
+	    0%   { background: #1F45FC; }
+	    25%  { background: #4AA02C; }
+	    50%  { background: #E56717; }
+	    75% { background: #842DCE; }
+	    100% { background: #1F45FC; }
+	}
+
+	@-webkit-keyframes fade {
+	    0%   { background: #1F45FC; }
+	    25%  { background: #4AA02C; }
+	    50%  { background: #E56717; }
+	    75% { background: #842DCE; }
+	    100% { background: #1F45FC; }
+	}
