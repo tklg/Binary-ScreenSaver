@@ -1,6 +1,6 @@
 @import 'fonts.css';
 
-* { text-decoration: none; list-style-type: none;}
+* { text-decoration: none !important; list-style-type: none;}
 
 body {
     background: #000;
@@ -51,7 +51,7 @@ body {
     background-color: #BF1915;
     border-width: 1px;
     border-color: #fff;
-    -webkit-box-shadow: 0 0 60px 1px #8C001A;
+    -webkit-box-shadow: 0 0 60px 10px #8C001A;
 }
 
 .dot-inactive {
@@ -60,6 +60,51 @@ body {
 
 .dot-none {
     visibility: hidden;
+}
+
+.footer {
+    position: absolute;
+    margin-bottom: 7px;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+}
+
+.title {
+    float: left;
+    position: relative;
+    margin-left: 40px;
+    font-family: 'FF-regular';
+    font-size: 30px;
+    vertical-align: top;
+}
+
+.btn-container {
+    position: absolute;
+    bottom: 20px;
+    margin-left: 40px;
+}
+.btn-dl {
+    position: relative;
+    float: left;
+    height: auto;
+    width: auto;
+    color: #444;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #555;
+    -webkit-transition: all .2s ease;
+          transition: all .2s ease;
+}
+.btn-dl:hover {
+    cursor: pointer;
+    border-color: #700;
+    color: #444;
 }
 
     @keyframes fade {
