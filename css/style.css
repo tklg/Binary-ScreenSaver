@@ -82,7 +82,8 @@ body {
 }
 
 .dot-inactive {
-    background-color: #222;
+    background-color: #111;
+    border-color: #444;
 }
 
 .dot-none {
