@@ -180,3 +180,8 @@ body {
 .color-btn-container > button.purple {
     border-color: #842DCE
 }
+.color-btn-container > button:hover {
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+}
