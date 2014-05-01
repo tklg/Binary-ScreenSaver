@@ -13,3 +13,5 @@ ToDo:
 <ul>
 <li>Make the website into a screensaver with c#</li>
 </ul>
+
+__I FOUND A THING THAT LETS ME USE TEH _WEBPAGE_ AS THE SCREENSAVER!!__
